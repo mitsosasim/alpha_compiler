@@ -4,7 +4,7 @@ A compiler for the Alpha language that turns source programs into intermediate c
 
 ![Alpha compilation and runtime architecture](docs/images/architecture.svg)
 
-**C · Flex · Bison · GNU Make** · [Setup](docs/SETUP.md) · [Technical brief](docs/report.pdf) · [Overleaf sources](docs/report-overleaf.zip)
+**C · Flex · Bison · GNU Make** · [Setup](docs/SETUP.md) · [Technical brief report](docs/report.pdf) · [Overleaf sources](docs/report-overleaf.zip)
 
 Developed jointly by **Dimitris Asimakopoulos**, **Alexandros Fourtounis**, and **Georgia Marina Tsanta** for HY340, University of Crete, 2023–2024.
 
@@ -32,6 +32,6 @@ make check
 
 The demo compiles a short arithmetic program and a `print` call. It displays the generated quads and saves the instruction listing, constant tables, and bytecode in a fresh directory under `build/`. It demonstrates compilation, rather than executing the experimental VM.
 
-The source retains known course-project limitations in control-flow handling and VM execution. See the [technical brief](docs/report.pdf) for the precise verification scope and remaining issues.
+The source retains known course-project limitations in control-flow handling and VM execution. See the [technical brief report](docs/report.pdf) for the precise verification scope and remaining issues.
 
 [MIT license](LICENSE), preserved from the supplied project.
