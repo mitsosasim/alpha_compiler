@@ -1,0 +1,11 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.tex text eol=lf
+*.pdf binary
+*.zip binary
+
+# Retain the formatting of the inherited course sources and fixtures.
+compiler/** -whitespace
+vm/** -whitespace
+tests/fixtures/** -whitespace

@@ -1,0 +1,15 @@
+/build/
+*.o
+*.abc
+core
+core.*
+__pycache__/
+/docs/report/*.aux
+/docs/report/*.log
+/docs/report/*.out
+/docs/report/*.fls
+/docs/report/*.fdb_latexmk
+/docs/report/main.pdf
+/quads.txt
+/instructions.txt
+/tables.txt

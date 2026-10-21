@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="550" viewBox="0 0 1000 550" role="img" aria-labelledby="title desc">
+<title id="title">Alpha compiler and virtual machine</title>
+<desc id="desc">Source passes through lexical analysis, parsing and symbol management, intermediate quads, then bytecode generation. The bytecode is input to the experimental AVM runtime.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#63718c"/></marker></defs>
+<rect width="1000" height="550" rx="18" fill="#f7f8fc"/>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="40" y="36" font-size="17" letter-spacing="1.5" font-weight="bold" fill="#53617c">LANGUAGE FRONT END</text>
+<text x="600" y="36" font-size="17" letter-spacing="1.5" font-weight="bold" fill="#53617c">CODE &amp; RUNTIME</text>
+<rect x="40" y="60" width="360" height="82" rx="12" fill="#ffffff" stroke="#d8dfeb" stroke-width="1.5"/>
+<text x="60" y="94" fill="#202d4d" font-size="23" font-weight="bold">Alpha source</text>
+<text x="60" y="121" fill="#53617c" font-size="16">Expressions, functions, tables</text>
+<rect x="40" y="175" width="360" height="82" rx="12" fill="#ffffff" stroke="#d8dfeb" stroke-width="1.5"/>
+<text x="60" y="209" fill="#202d4d" font-size="23" font-weight="bold">Flex lexer</text>
+<text x="60" y="236" fill="#53617c" font-size="16">Tokens from character patterns</text>
+<rect x="40" y="290" width="360" height="82" rx="12" fill="#ffffff" stroke="#d8dfeb" stroke-width="1.5"/>
+<text x="60" y="324" fill="#202d4d" font-size="23" font-weight="bold">Bison parser</text>
+<text x="60" y="351" fill="#53617c" font-size="16">Grammar rules and semantic actions</text>
+<rect x="40" y="405" width="360" height="82" rx="12" fill="#eaeafa" stroke="#bbbfe0" stroke-width="1.5"/>
+<text x="60" y="439" fill="#202d4d" font-size="23" font-weight="bold">Intermediate quads</text>
+<text x="60" y="466" fill="#53617c" font-size="16">Temporaries and branch targets</text>
+<rect x="600" y="60" width="360" height="82" rx="12" fill="#ffffff" stroke="#d8dfeb" stroke-width="1.5"/>
+<text x="620" y="94" fill="#202d4d" font-size="23" font-weight="bold">Symbol tables</text>
+<text x="620" y="121" fill="#53617c" font-size="16">Names, scopes, and storage offsets</text>
+<rect x="600" y="175" width="360" height="82" rx="12" fill="#eaeafa" stroke="#bbbfe0" stroke-width="1.5"/>
+<text x="620" y="209" fill="#202d4d" font-size="23" font-weight="bold">AVM prototype</text>
+<text x="620" y="236" fill="#53617c" font-size="16">Typed cells, stack, and dispatch</text>
+<rect x="600" y="290" width="360" height="82" rx="12" fill="#ffffff" stroke="#d8dfeb" stroke-width="1.5"/>
+<text x="620" y="324" fill="#202d4d" font-size="23" font-weight="bold">Bytecode file</text>
+<text x="620" y="351" fill="#53617c" font-size="16">Instructions and constant pools</text>
+<rect x="600" y="405" width="360" height="82" rx="12" fill="#eaeafa" stroke="#bbbfe0" stroke-width="1.5"/>
+<text x="620" y="439" fill="#202d4d" font-size="23" font-weight="bold">Target-code generator</text>
+<text x="620" y="466" fill="#53617c" font-size="16">VM opcodes and operands</text>
+<g fill="none" stroke="#63718c" stroke-width="2" marker-end="url(#arrow)">
+<path d="M220 142 V170"/>
+<path d="M220 257 V285"/>
+<path d="M220 372 V400"/>
+<path d="M400 446 H594"/>
+<path d="M780 405 V378"/><path d="M780 290 V263"/>
+<path d="M400 331 H500 V101 H594"/></g>
+<text x="430" y="318" fill="#53617c" font-size="14">bindings</text>
+<text x="450" y="436" fill="#53617c" font-size="14">translate</text>
+<text x="800" y="283" fill="#53617c" font-size="14">load</text>
+</g></svg>
